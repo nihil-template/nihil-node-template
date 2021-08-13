@@ -1,0 +1,33 @@
+{
+  "name": "node-typescript-project-template",
+  "version": "1.0.0",
+  "description": "노드에서 타입스크립트 편하게 하려고 만든 템플릿",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIHILncunia/node-typescript-project-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NIHILncunia/node-typescript-project-template/issues"
+  },
+  "homepage": "https://github.com/NIHILncunia/node-typescript-project-template#readme",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node build/index.js\"",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "NIHILncunia",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "ts-node": "^10.2.0",
+    "tsc-watch": "^4.4.0",
+    "typescript": "^4.3.5"
+  }
+}
