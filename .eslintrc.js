@@ -55,8 +55,10 @@ module.exports = {
       exports: 'never',
     }, ],
     'jsx-quotes': [ 'error', 'prefer-single', ],
-    'linebreak-style': 'off',
+    'linebreak-style': [ 'warn', 'windows', ],
     'max-len': 'off',
+    'lines-between-class-members': 'off',
+    'no-underscore-dangle': 'off',
 
     // 임포트 규칙
     'import/extensions': [ 'error', 'never', {
