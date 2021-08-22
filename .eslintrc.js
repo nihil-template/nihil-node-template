@@ -46,7 +46,7 @@ module.exports = {
     ],
     'object-curly-spacing': [ 'warn', 'always', ],
     'no-shadow': 'off',
-    indent: [ 'warn', 2, { SwitchCase: 1, }, ],
+    indent: 'off',
     'comma-dangle': [ 'warn', {
       arrays: 'always',
       functions: 'never',
@@ -55,23 +55,24 @@ module.exports = {
       exports: 'never',
     }, ],
     'jsx-quotes': [ 'error', 'prefer-single', ],
-    'linebreak-style': [ 'warn', 'windows', ],
+    'linebreak-style': 'off',
+    'prefer-const': 'off',
     'max-len': 'off',
-    'lines-between-class-members': 'off',
-    'no-underscore-dangle': 'off',
+    'no-else-return': 'off',
+    'global-require': 'off',
 
     // 임포트 규칙
-    'import/extensions': [ 'error', 'never', {
-      ignorePackages: true,
-      pattern: {
-        json: 'always',
-      },
-    }, ],
+    'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
+    'import/no-dynamic-require': 'off',
     'import/prefer-default-export': 'off',
 
     // 타입스크립트 규칙
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/indent': [ 'warn', 2, { SwitchCase: 1, }, ],
   },
 };
