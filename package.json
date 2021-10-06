@@ -1,16 +1,16 @@
 {
-  "name": "node-typescript-project-template",
+  "name": "nihil-node-template",
   "version": "1.0.0",
   "description": "노드에서 타입스크립트 편하게 쓰려고 만든 템플릿",
   "main": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIHILncunia/node-typescript-project-template.git"
+    "url": "git+https://github.com/nihil-template/nihil-node-template.git"
   },
   "bugs": {
-    "url": "https://github.com/NIHILncunia/node-typescript-project-template/issues"
+    "url": "https://github.com/nihil-template/nihil-node-template/issues"
   },
-  "homepage": "https://github.com/NIHILncunia/node-typescript-project-template#readme",
+  "homepage": "https://github.com/nihil-template/nihil-node-template#readme",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node build/index.js\"",
     "start": "node build/index.js"
@@ -20,9 +20,9 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^16.10.2",
-    "@typescript-eslint/eslint-plugin": "^4.32.0",
-    "@typescript-eslint/parser": "^4.32.0",
+    "@types/node": "^16.10.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-html": "^6.2.0",
