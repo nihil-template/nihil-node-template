@@ -2,10 +2,10 @@
 노드 프로젝트 편하게 시작하려고 만든 템플릿. 타입스크립트 기본 지원.
 
 ## 개발
-```text
+```bash
 npm run dev
 ```
 ## 배포
-```text
+```bash
 npm start
 ```
