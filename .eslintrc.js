@@ -80,6 +80,11 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/indent': [ 'warn', 2, { SwitchCase: 1, }, ],
+    '@typescript-eslint/indent': [ 'warn', 2, {
+      SwitchCase: 1,
+      FunctionExpression: {
+        parameters: 0,
+      },
+    }, ],
   },
 };
