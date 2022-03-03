@@ -3,9 +3,17 @@
 
 ## 개발
 ```bash
-npm run dev
+npm run start
+```
+or
+```bash
+npm run start:dev
+```
+## 컴파일
+```bash
+npm run build
 ```
 ## 배포
 ```bash
-npm start
+npm run start:prod
 ```
