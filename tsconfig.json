@@ -2,17 +2,22 @@
   "compilerOptions": {
     "baseUrl": ".",
     "module": "commonjs",
-    "target": "es2015",
-    "rootDir": "src",
+    "moduleResolution": "Node",
+    "target": "ESNext",
     "outDir": "build",
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./src/*"]
     }
   },
   "include": [ "./src/**/*" ],
   "exclude": [
-    "node_modules",
-    "build"
+    "./node_modules",
+    "./build",
   ]
 }
