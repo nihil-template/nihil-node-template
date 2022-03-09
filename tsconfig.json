@@ -12,7 +12,9 @@
     "resolveJsonModule": true,
     "importHelpers": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [ "./src/**/*" ],
