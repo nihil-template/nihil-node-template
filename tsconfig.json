@@ -4,7 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "Node",
     "target": "ESNext",
-    "outDir": "build",
+    "outDir": "js",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
@@ -18,10 +18,10 @@
     }
   },
   "include": [
-    "./src/**/*"
+    "./ts/**/*.ts"
   ],
   "exclude": [
     "./node_modules",
-    "./build",
+    "./js",
   ]
 }
