@@ -4,7 +4,8 @@
     "module": "commonjs",
     "moduleResolution": "Node",
     "target": "ESNext",
-    "outDir": "js",
+    "rootDir": "src/ts",
+    "outDir": "src/js",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
@@ -19,10 +20,10 @@
     }
   },
   "include": [
-    "./ts/**/*.ts"
+    "./src/ts/**/*.ts"
   ],
   "exclude": [
     "./node_modules",
-    "./js",
+    "./src/js",
   ]
 }
