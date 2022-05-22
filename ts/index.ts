@@ -1,1 +1,2 @@
-console.log('Hello World!!');
+const $divHello = document.getElementById('hello');
+$divHello.textContent = 'Hello World!!!';

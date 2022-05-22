@@ -1,1 +1,3 @@
-console.log('Hello World!!');
+const $divHello = document.getElementById('hello');
+$divHello.textContent = 'Hello World!!!';
+//# sourceMappingURL=index.js.map
