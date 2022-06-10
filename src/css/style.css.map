@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/style.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA","file":"style.css"}
+{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,yBAAA;EACA,cAAA;EACA,kBAAA;ACCF","file":"style.css","sourcesContent":["div#hello {\r\n  padding: 10px;\r\n  background-color: #333333;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n","div#hello {\n  padding: 10px;\n  background-color: #333333;\n  color: #ffffff;\n  text-align: center;\n}"]}

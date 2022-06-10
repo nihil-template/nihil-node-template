@@ -1,19 +1,11 @@
 # 노드 타입스크립트 프로젝트 템플릿
-노드 프로젝트 편하게 시작하려고 만든 템플릿. 타입스크립트 기본 지원.
+노드 프로젝트 편하게 시작하려고 만든 템플릿. 타입스크립트 기본 지원. gulp를 이용한 컴파일 자동화 지원.
 
-## 개발
+## Gulp 컴파일
 ```bash
-npm run start
+npm run dev:gulp
 ```
-or
+## 개발서버
 ```bash
-npm run start:dev
-```
-## 컴파일
-```bash
-npm run build
-```
-## 배포
-```bash
-npm run start:prod
+npm run dev:server
 ```
